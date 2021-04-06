@@ -14,6 +14,7 @@ urlpatterns = [
     path('personedit/<int:tbl_person_info_id>', views.person_edit, name='person_edit'),
     path('persondelete/<int:tbl_person_info_id>', views.person_destroy, name='person_delete'),
     path('total/', views.total_table, name='total'),
+    path('marker/', views.show_tjs, name='show_tjs'),
 
 
 ]
